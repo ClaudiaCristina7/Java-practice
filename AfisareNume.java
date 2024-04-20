@@ -17,10 +17,10 @@ public class AfisareNume {
         //The line of code that will actually read the text on the keyboard
         //Declare a variable type String where the entered text will be displayed
 
-        String numelePersoanei = scanner.nextLine();
+        String personName = scanner.nextLine();
 
         //I display the name of the person entered from the keyboard
-        System.out.println("The name that you entered is: " + numelePersoanei);
+        System.out.println("The name that you entered is: " + personName);
 
         //EX. 2: Create a code to read the person's first name (in a different variable) and display it later.
         // Example: Enter your name: Roban
@@ -29,7 +29,7 @@ public class AfisareNume {
         System.out.println("Enter your first name: ");
         String firstname = scanner.nextLine();
         System.out.println("The First Name is: " + firstname);
-        System.out.println("The complete name is: " + numelePersoanei + " " + firstname);
+        System.out.println("The complete name is: " + personaName + " " + firstname);
             }
 
 }
